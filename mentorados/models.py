@@ -57,3 +57,12 @@ class Reuniao(models.Model):
     mentorado = models.ForeignKey(Mentorados, on_delete=models.CASCADE)
     tag = models.CharField(max_length=2, choices=tag_choices)
     descricao = models.TextField()
+
+class Tarefa(models.Model):
+    mentorado = models.ForeignKey(Mentorados, on_delete=models.CASCADE)
+    tarefa = models.CharField(max_length=255)
+    realizada = models.BooleanField(default=False)
+
+class Upload(models.Model):
+    mentorado = models.ForeignKey(Mentorados, on_delete=models.CASCADE)
+    video = models.FileField(upload_to='video')
