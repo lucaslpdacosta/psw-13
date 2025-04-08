@@ -51,7 +51,6 @@ Este projeto é uma plataforma web desenvolvida com [Django](https://www.djangop
 6. Acesse a aplicação em: http://localhost:8000/usuarios/login/
 
 ### Telas da Aplicação
-![Image](https://github.com/user-attachments/assets/c8d9dec9-971f-4d0a-a140-5c159ba038cc)
 ![Image](https://github.com/user-attachments/assets/6c33d561-e76d-4e5a-a3d0-bcd46adcb15a)
 ![Image](https://github.com/user-attachments/assets/5d32dfcf-b510-4201-8cd1-a495681fedee)
 ![Image](https://github.com/user-attachments/assets/fbfc9fbb-3b94-4e06-9328-efe901fbb349)
