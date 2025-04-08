@@ -6,7 +6,6 @@ from django.contrib import messages
 from django.contrib.auth import authenticate
 from django.contrib import auth
 
-# Create your views here.
 def cadastro(request):
     if request.method == 'GET':
         return render(request, 'cadastro.html')
@@ -34,7 +33,6 @@ def cadastro(request):
         )
 
         return redirect('/usuarios/login')
-
 
 def login(request):
     if request.method == 'GET':
