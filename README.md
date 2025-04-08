@@ -24,7 +24,7 @@ Este projeto é uma plataforma web desenvolvida com [Django](https://www.djangop
 ### Passos para rodar o projeto
 1. Clone o repositório:
    ```sh
-   git clone --branch projeto_4 --single-branch https://github.com/lucaslpdacosta/psw-13.git
+   git clone --branch 1 --single-branch https://github.com/lucaslpdacosta/psw-13.git
    ```
 2. Crie o ambiente virtual:
    ```sh
